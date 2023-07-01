@@ -26,7 +26,7 @@ function Footer() {
                <BsLinkedin fontSize="18px"/>  
               </ReactLink>
               
-              <a href="tel:+919196277239">
+              <a href="tel:+919168277239">
                 <BsTelephonePlus fontSize="18px" />
               </a>
       </Flex>

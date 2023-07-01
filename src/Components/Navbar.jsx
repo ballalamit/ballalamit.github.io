@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from "../Resume/Amit_Ballal_Resume.pdf"
 import { Box, Flex, IconButton, Text, Collapse, useBreakpointValue , Button , chakra} from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import {Link as ReactLink} from 'react-router-dom';
@@ -16,6 +17,11 @@ function Navbar() {
   React.useEffect(() => {
     setIsOpen(isMobile);
   }, [isMobile]);
+
+
+  const handleDownload = () => {
+    window.open('https://drive.google.com/file/d/1_40d0za5Uo4mw6_BxYb4NDBE49CcjF2Q/view', '_blank');
+  };
 
   return (
     <Flex
@@ -131,7 +137,7 @@ function Navbar() {
             >
               Contact
             </ChakraLink>
-
+{/* 
             <ChakraLink 
             to="https://drive.google.com/file/d/1_40d0za5Uo4mw6_BxYb4NDBE49CcjF2Q/view?usp=sharing"
             target="_blank"
@@ -150,7 +156,26 @@ function Navbar() {
           >
             Resume
           </Button>
-          </ChakraLink>
+          </ChakraLink> */}
+
+              <a 
+          href={resume} 
+          onClick={handleDownload} 
+          rel="noreferrer" download={'Amit_Ballal_Resume'} id="resume-button-1" className="contact-button nav-link resume resume-button second-btn">
+                     <Button
+            as="a"
+            color="white"
+            bg="purple.500"
+            px={4}
+            py={2}
+            borderRadius="md"
+            textDecoration="none"
+            _hover={{ textDecoration: 'none', bg: 'purple.600' }}
+            className="nav-link resume"
+            id="resume-button-1"
+          >Resume</Button>
+         
+          </a>
 
           </Flex>
         </Collapse>

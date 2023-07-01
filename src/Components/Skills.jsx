@@ -12,7 +12,7 @@ import mernicon from '../Images/skillsimages/mern.png'
 
 function Skills() {
   return (
-    <Box width={{ base: "100%", md: "95%", lg: "92%"  }} m={{ base: 0, md: 'auto', lg: "auto"  }}>
+    <Box width={{ base: "100%", md: "95%", lg: "92%"  }} m={{ base: 0, md: 'auto', lg: "auto"  }} id="skills">
         <Center>
             <Heading my={10}>Skills</Heading>         
         </Center>

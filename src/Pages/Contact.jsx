@@ -67,7 +67,8 @@ function Contact() {
                             variant="ghost"
                             color="#DCE2FF"
                             _hover={{ border: '2px solid #1C6FEB' }}
-                            leftIcon={<MdEmail color="#1970F1" size="20px" />}>
+                            leftIcon={<MdEmail color="#1970F1" size="20px" />}
+                            id="contact-email">
                             ballalamit2@gmail.com
                           </Button>
                           <Button
@@ -99,7 +100,7 @@ function Contact() {
                           _hover={{ bg: '#0D74FF' }}
                           color="white"
                           icon={<BsLinkedin size="28px" />}
-                        />
+                          id="contact-linkedin"/>
                        </ReactLink>
 
                       <ReactLink
@@ -114,7 +115,7 @@ function Contact() {
                           _hover={{ bg: '#0D74FF' }}
                           color="white"
                           icon={<BsGithub size="28px" />}
-                        />
+                          id="contact-github"/>
                         </ReactLink>
 
                         <a href="tel:+919196277239">
@@ -126,7 +127,7 @@ function Contact() {
                           _hover={{ bg: '#0D74FF' }}
                           color="white"
                           icon={<BsTelephonePlus size="28px" />}
-                        />
+                          id="contact-phone"/>
                         </a>
                       </HStack>
                     </Box>

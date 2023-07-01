@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Center, Image, VStack, Text, Container,Flex } from '@chakra-ui/react';
+import { Box, Center, Image, VStack, Text, Container,Flex, Heading } from '@chakra-ui/react';
 import amit from '../Images/amit.png';
 function About() {
     return (
@@ -13,8 +13,8 @@ function About() {
     
             <Box>
               <VStack spacing={4} align={{ base: 'center', md: 'start' }}>
-                <Text fontSize="xl" fontWeight="bold">About Me</Text>
-                <Text textAlign={{ base: 'center', md: 'start' }}>Welcome to my world of software development! I am a passionate software developer and Devops enthusiast who loves creating projects and exploring open-source software. I completed my Bachelor in Mechanical Engineering from Pune University. I have a broad understanding of software and engineering systems. When I'm not working, you can find me binge watching movies.</Text>
+                <Heading fontSize="xl" fontWeight="bold">About Me</Heading>
+                <Text textAlign={{ base: 'center', md: 'start' }}>Welcome to my world of software development! I am a passionate software developer and Devops enthusiast who loves creating projects and exploring open-source software. My expertise spans across HTML5, CSS3, JavaScript, ReactJs, NodeJs, Express, and I'm well-versed in working with database technologies like MongoDB.  I completed my Bachelor in Mechanical Engineering from Pune University. I have a broad understanding of software and engineering systems. When I'm not working, you can find me binge watching movies.</Text>
     
                 <Text fontWeight="bold" textAlign={{base:'center', }}>Seeking Full-time Software Engineering Opportunities</Text>
                 <Text textAlign={{ base: 'center', md: 'start' }}>After completing my Bachelor degree, I am now actively looking for full-time Software Engineering opportunities. I am open to positions in PAN India. If you have a role that could benefit from my skills and knowledge, I would love to hear from you. I am eager to contribute to innovative projects and continue growing as a professional.</Text>

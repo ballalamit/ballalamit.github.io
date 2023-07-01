@@ -1,6 +1,7 @@
 import React from 'react';
 import hero from '../Images/hero.png';
 import amit from '../Images/amit.png';
+import resume from "../Resume/Amit_Ballal_Resume.pdf"
 import { DownloadIcon,Arrow  } from '@chakra-ui/icons'
 import { BsGithub, BsLinkedin, BsTelephonePlus} from 'react-icons/bs';
 import {MdEmail} from 'react-icons/md'
@@ -25,6 +26,9 @@ import {
   } from '@chakra-ui/react';
   
   export default function Hero() {
+    const handleDownload = () => {
+      window.open('https://drive.google.com/file/d/1_40d0za5Uo4mw6_BxYb4NDBE49CcjF2Q/view', '_blank');
+    };
     return (
       <Container maxW={'7xl'}>
         <Stack
@@ -64,7 +68,7 @@ import {
               my={2}
               alignItems={'center'}
               >
-              <ReactLink
+              {/* <ReactLink
                 to="https://drive.google.com/file/d/1_40d0za5Uo4mw6_BxYb4NDBE49CcjF2Q/view"
                 target="_blank"
               >
@@ -80,7 +84,27 @@ import {
                 >
                 <DownloadIcon mx={1}></DownloadIcon>Resume
               </Button>                              
-              </ReactLink>
+              </ReactLink> */}
+
+
+<a 
+          href={resume} 
+          onClick={handleDownload} 
+          rel="noreferrer" download={'Amit_Ballal_Resume'} id="resume-button-1" className="contact-button nav-link resume resume-button second-btn">
+              <Button
+                rounded={'full'}
+                size={'lg'}
+                fontWeight={'normal'}
+                px={6}
+                colorScheme={'red'}
+                bg={'purple.500'}
+                _hover={{ bg: 'purple.600' }}
+                id="resume-button-2"
+                >
+                <DownloadIcon mx={1}></DownloadIcon>Resume
+              </Button>  
+         
+          </a>
 
               <ReactLink
                 to='https://github.com/ballalamit'
@@ -95,11 +119,11 @@ import {
                <BsLinkedin fontSize="30px" id="contact-linkedin" />  
               </ReactLink>
               
-              <a href="tel:+919196277239">
+              <a href="tel:+919168277239">
                 <BsTelephonePlus fontSize="30px" id="contact-phone" />
               </a>
 
-              <a href="mailto:ballalamit@gmail.com">
+              <a href="mailto:ballalamit2@gmail.com">
                 <MdEmail fontSize="36px" id="contact-email" />
               </a>
 

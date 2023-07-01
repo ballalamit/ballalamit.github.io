@@ -26,6 +26,7 @@ function Devopsprojects() {
             flexDirection={{ base: 'column', sm: 'row' }}
             justifyContent="space-between"
             boxShadow='base'
+            className="project-card"
             >
             <Box
               display="flex"
@@ -69,7 +70,7 @@ function Devopsprojects() {
               justifyContent="center"
               marginTop={{ base: '3', sm: '0', lg:'2' }}>
               
-              <Heading marginTop="1" p={2}>
+              <Heading marginTop="1" p={2} className="project-title">
                 <Link textDecoration="none" _hover={{ textDecoration: 'none' }}>
                 CI/CD pipeline with Jenkins and GitHub.
                 </Link>
@@ -79,7 +80,8 @@ function Devopsprojects() {
                 marginTop="2"
                 p={2}
                 color={useColorModeValue('gray.700', 'gray.200')}
-                fontSize="lg">
+                fontSize="lg"
+                className="project-description">
                 By seamlessly connecting Jenkins to GitHub, I enabled automatic build triggering and real-time deployments, ensuring a smooth and continuous delivery process.
               </Text>
     
@@ -90,7 +92,14 @@ function Devopsprojects() {
             <ReactLink
                 to='https://www.linkedin.com/feed/update/urn:li:activity:6965177385973366784/'
                 target="_blank">
-            <BsFillPlayBtnFill style={{ marginLeft: "10px", fontSize: "24px" }}/>
+            <BsFillPlayBtnFill style={{ marginLeft: "10px", fontSize: "24px" }} className="project-deployed-link" />
+
+            </ReactLink>
+                <ReactLink
+              to={'https://github.com/ballalamit'}
+              target="_blank"
+            >
+              <BsGithub fontSize="20px" className="project-github-link" />
             </ReactLink>
             </Flex>
     
@@ -133,7 +142,7 @@ function Devopsprojects() {
             flexDirection={{ base: 'column', sm: 'row' }}
             justifyContent="space-between"
             boxShadow='base'
-           
+            className="project-card"
             
             >
             <Box
@@ -177,7 +186,7 @@ function Devopsprojects() {
               justifyContent="center"
               marginTop={{ base: '3', sm: '0' }}>
               
-              <Heading marginTop="1" p={2}>
+              <Heading marginTop="1" p={2} className="project-title">
                 <Link textDecoration="none" _hover={{ textDecoration: 'none' }}>
                     Host Static Website on Docker
                 </Link>
@@ -187,7 +196,8 @@ function Devopsprojects() {
                 marginTop="2"
                 p={2}
                 color={useColorModeValue('gray.700', 'gray.200')}
-                fontSize="lg">
+                fontSize="lg"
+                className="project-description">
                 I have successfully utilized Virtual Machines (VMs) to host static websites within Docker containers. By combining the power of VMs and Docker's containerization, I achieved reliable and scalable hosting solutions. This approach ensured efficient resource allocation, simplified deployment processes, and enhanced performance and security for the hosted websites.
               </Text>
               <Flex gap='5' mt={3}>
@@ -195,8 +205,17 @@ function Devopsprojects() {
               <ReactLink
                 to='https://www.linkedin.com/feed/update/urn:li:activity:6947553484162363392/'
                 target="_blank">
-              <BsFillPlayBtnFill style={{ marginLeft: "10px", fontSize: "24px" }}/>
+              <BsFillPlayBtnFill style={{ marginLeft: "10px", fontSize: "24px" }} className="project-deployed-link"/>
               </ReactLink>
+   
+              <ReactLink
+              to={'https://github.com/ballalamit'}
+              target="_blank"
+            >
+              <BsGithub fontSize="20px" className="project-github-link" />
+            </ReactLink>
+
+              
               </Flex>
     
               <Flex>
