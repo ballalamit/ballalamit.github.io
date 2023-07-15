@@ -59,7 +59,7 @@ import {
             <Text color={'gray.900'}  fontSize={{ base: 'md', sm: 'lg', lg: 'xl' }} my={{base:"0", sm:"2", lg:"3"}} textAlign={{ base: 'center' , sm: 'left', lg: 'left'  }} fontWeight={500}>CreativeThinker | Developer | Devops Engineer | Marketer</Text>
             {/* <Text color={'gray.900'}  fontSize={{ base: 'md', sm: 'lg', lg: 'xl' }} my={{base:"0", sm:"2", lg:"3"}} textAlign={{ base: 'center' , sm: 'left', lg: 'left'  }}>["Creative Thinker", "Developer", "Devops Engineer", "Marketer"]</Text> */}
             <Text color={'gray.700'} fontSize={{ base: 'sm', sm: 'lg', lg: 'xl' }} textAlign={{ base: 'center' , sm: 'left', lg: 'left'  }} id="user-detail-intro">
-            A software engineer based in India experienced in building web applications, mobile applications and backend services.
+            A software engineer based in India experienced in MERN Stack, Devops, and Cloud Technology.
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
