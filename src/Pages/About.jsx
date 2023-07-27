@@ -3,7 +3,7 @@ import { Box, Center, Image, VStack, Text, Container,Flex, Heading } from '@chak
 import amit from '../Images/amit.png';
 function About() {
     return (
-        <Box bg={'#EBF8FF'} width={{ base: "100%", md: "95%", lg: "92%"  }} m={{ base: 0, md: 'auto', lg: "auto"  }} borderRadius={5}  marginTop={{ base: "0", md: "20px", lg: "100px"  }} id="about" class="about section">
+        <Box id="about"  bg={'#EBF8FF'} width={{ base: "100%", md: "95%", lg: "92%"  }} m={{ base: 0, md: 'auto', lg: "auto"  }} borderRadius={5}  marginTop={{ base: "0", md: "20px", lg: "100px"  }} className="about section">
 
         <Container maxW="container.lg">
           <Flex py={8} direction={{ base: 'column', md: 'row' }} align="center" justify="center">
