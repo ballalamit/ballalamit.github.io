@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.746d4fa1.css",
-    "main.js": "/static/js/main.b5e8efa8.js",
+    "main.js": "/static/js/main.e899e33b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/bewakoof.png": "/static/media/bewakoof.3270a79f90c43e01433c.png",
     "static/media/specializedcycles.png": "/static/media/specializedcycles.d296e157ebe0a06d8f43.png",
@@ -42,11 +42,11 @@
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.789afb71d327988e2fc8.woff2",
     "index.html": "/index.html",
     "main.746d4fa1.css.map": "/static/css/main.746d4fa1.css.map",
-    "main.b5e8efa8.js.map": "/static/js/main.b5e8efa8.js.map",
+    "main.e899e33b.js.map": "/static/js/main.e899e33b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.746d4fa1.css",
-    "static/js/main.b5e8efa8.js"
+    "static/js/main.e899e33b.js"
   ]
 }
