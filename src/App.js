@@ -1,22 +1,30 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
-import { Box } from '@chakra-ui/react';
-import Hero from './Components/Hero';
-import Navbar from './Components/Navbar';
-import Projects from './Components/Projects';
-import Skills from './Components/Skills';
-import GithubCalendar from './Components/Githubcalender';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
-import Home from './Pages/Home';
-import AllRoutes from './Components/AllRoutes';
+import Navbar from './Components/MiniComponent/Navbar';
+import Intro from './Components/Intro/Intro';
+import Sidebar from './Components/MiniComponent/Sidebar';
+import About from './Components/About/About';
+import { useRef } from 'react';
+import Skill from './Components/Skill/Skill';
+import Work from './Components/Work/Work';
+import Contact from './Components/Contact/Contact';
+import GithubCalender from './Components/GithubCalender/GithubCalender';
+import Cursor from './Components/MiniComponent/Cursor';
 
 function App() {
+
   return (
-    <Box>
-      <Navbar />
-      <AllRoutes />
-    </Box>
+    <div className="App">
+        <Cursor/>
+        <Navbar />
+        <Intro/>
+        <Sidebar/>
+        <About  />
+        <Skill/>
+        <Work/>
+        <GithubCalender/>
+        <Contact/>
+    </div>
   );
 }
 
