@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.03285824.css",
-    "main.js": "/static/js/main.777803f7.js",
+    "main.js": "/static/js/main.116d0576.js",
     "static/media/hotstarimg.png": "/static/media/hotstarimg.5bb89a6d6fa7fc16371f.png",
     "static/media/cryptoApp.png": "/static/media/cryptoApp.0b50ed8ee6eea1a24da4.png",
     "static/media/portimg2.png": "/static/media/portimg2.befe4ced7e6747c8ed66.png",
     "static/media/instaImg.png": "/static/media/instaImg.b4deedfb65b4965f2363.png",
     "static/media/skinstoreImg.png": "/static/media/skinstoreImg.b46393d87df48c300665.png",
     "static/media/ebayImg.png": "/static/media/ebayImg.cd4cedd73be87339fd83.png",
-    "static/media/myimage.png": "/static/media/myimage.76210d05d55216a0545e.png",
+    "static/media/myimage.png": "/static/media/myimage.50a37f17684aa8a959a7.png",
     "static/media/Amit-Ballal-Resume.pdf": "/static/media/Amit-Ballal-Resume.a3ce5619f025e513f955.pdf",
     "index.html": "/index.html",
     "main.03285824.css.map": "/static/css/main.03285824.css.map",
-    "main.777803f7.js.map": "/static/js/main.777803f7.js.map"
+    "main.116d0576.js.map": "/static/js/main.116d0576.js.map"
   },
   "entrypoints": [
     "static/css/main.03285824.css",
-    "static/js/main.777803f7.js"
+    "static/js/main.116d0576.js"
   ]
 }
